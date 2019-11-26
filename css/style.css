@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, rgb(255, 196, 87), rgb(250, 250, 149));
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0 !important
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px
+}
+
+.navbar-nav li {
+    padding: 0 5px
+}
+
+.navbar-nav a {
+    color: rgb(97, 97, 97) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: none;
+}
+
+/* banner */
+
+#banner {
+    background-image: linear-gradient(to left, rgb(255, 196, 87), rgb(250, 250, 149));
+    color: rgb(97, 97, 97) !important;
+    padding-top: 5%
+}
+
+.promo-title {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px
+}
+
+#rocket {
+    font-size: 200px;
+    color: linear-gradient(to left, rgb(255, 196, 87), rgb(250, 250, 149));
+}
+
+.bottom-img {
+    width: 100%
+}
+
+/* chat */
+.chat {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    position: sticky;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.chat i {
+    font-size: 30px
+}
+
+/* services */
+#services {
+    padding: 80px 0
+}
+
+.services-img {
+    width: 150px;
+    margin-top: 20px
+}
+
+.services {
+    padding: 20px
+}
+
+.services h4 {
+    padding: 5px;
+}
+
+.title{
+    font-family:  'Lexend Deca', sans-serif;
+    text-transform: uppercase
+}
+
+.title::before {
+    content: '';
+    background: orange;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px)
+}
+
+.title::after {
+    content: '';
+    background: orange;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px)
+}
+
+/* about us */
+
+#about-us {
+    padding: 80px 0;
+    background-image: linear-gradient(to left, rgb(255, 196, 87), rgb(250, 250, 149));
+}
+
+/* team */
+
+#team {
+    padding: 80px 0;
+}
+
+/* footer */
+
+#footer {
+    padding: 50px 0;
+    background-image: linear-gradient(to left, rgb(255, 196, 87), rgb(250, 250, 149));
+    margin-bottom: -90px
+}
+
+#footer h3 {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    font-size: 30px;
+    padding-right: 10px
+}
+
+a :hover {
+    color: orange
+}
